@@ -77,20 +77,22 @@ export default class App extends Component {
   }
 
   async InsertionSort() {
-    var tArray = this.state.numbers;
-    for (let i = 0; i < tArray.length; i++) {
-      let toCmp = tArray[i];
-      for (let j = i; j > 0 && toCmp < tArray[j - 1]; j--) {
-        tArray[j] = tArray[j - 1];
-        tArray[j] = toCmp;
-
+    var inputArr = this.state.numbers;
+    let length = inputArr.length;
+    for (let i = 1; i < length; i++) {
+        let key = inputArr[i];
+        let j = i - 1;
+        while (j >= 0 && inputArr[j] > key) {
+            inputArr[j + 1] = inputArr[j];
+            j = j - 1;
+        }
+        inputArr[j + 1] = key;
         this.setState({
-          numbers: tArray,
+          numbers: inputArr,
         });
-  
-        await this.sleep(this.state.sleep);
-      }
+        await this.sleep(this.state.sleep); 
     }
+   
   }
 
   mergeSort = async(arr) => {
