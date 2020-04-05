@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #9A275A;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#bar {
+  margin: 1px;
+  width: 100px;
+  border: 2px solid white;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  -webkit-box-shadow: -6px 6px 10px -2px rgba(77,8,35,1);
+  -moz-box-shadow: -6px 6px 10px -2px rgba(77,8,35,1);
+   box-shadow: -6px 6px 10px -2px rgba(77,8,35,1);
+}
+
+#container {
+  background-color: white;
+  width: 1000px;
+  -webkit-box-shadow: -6px 6px 10px -2px rgba(77,8,35,1);
+  -moz-box-shadow: -6px 6px 10px -2px rgba(77,8,35,1);
+   box-shadow: -6px 6px 10px -2px rgba(77,8,35,1);
+}
+
+.App {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: 20px;
+  padding-top: 50px;
+}
+
+#resetbtn {
+  background-color: rgb(70, 149, 202);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#SortButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  margin: 10px;
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-box-shadow: -6px 6px 10px -2px rgba(77,8,35,1);
+  -moz-box-shadow: -6px 6px 10px -2px rgba(77,8,35,1);
+   box-shadow: -5px 5px 8px -2px rgba(77,8,35,1);
+}
+
+.Azure{
+  background-color: rgb(187, 43, 43);
+}
+.Ivory{
+  background-color: rgb(199, 155, 33);
+}
+.Teal{
+  background-color:Teal;
+}
+
+.Purple{
+  background-color: Purple;
+}
+
+.Peagreen{
+  background-color: rgb(28, 175, 28);
+}
+.Orange{
+  background-color: Orange;
+}
+.Maroon{
+  background-color: Maroon;
+}
+.Aquamarine{
+  background-color: Aquamarine;
+}
+.Coral{
+  background-color: Coral;
+}
+.Fuchsia{
+  background-color: Fuchsia;
+}
+.selected {
+  background-color: goldenrod;
+  border: 2px solid wheat;
+}
+
+.\31 {
+  height: 50px;
+}
+
+.\32 {
+  height: 100px;
+}
+
+.\33 {
+  height: 150px;
+}
+
+.\34 {
+  height: 200px;
+}
+
+.\35 {
+  height: 250px;
+}
+
+.\36 {
+  height: 300px;
+}
+.\37 {
+  height: 350px;
+}
+
+.\38 {
+  height: 400px;
+}
+
+.\39 {
+  height: 450px;
 }
