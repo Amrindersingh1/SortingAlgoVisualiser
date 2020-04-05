@@ -1,3 +1,9 @@
+## Sorting Algorithms Visualisation
+
+This project is built ini javascript to visualise sorting algorithms.
+
+![Website Screenshot]('./images/shot.PNG')
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
