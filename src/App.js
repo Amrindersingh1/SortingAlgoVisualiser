@@ -6,7 +6,7 @@ export default class App extends Component {
     super();
 
     this.state = {
-      numbers: [9, 8, 7, 6, 5, 4, 3, 2, 1],
+      numbers:  [3, 6, 5, 2, 1, 4, 8, 7, 9],
       colorArray: [
         "Azure",
         "Ivory",
@@ -102,7 +102,7 @@ export default class App extends Component {
 
   reset = () => {
     this.setState({
-      numbers: [9, 8, 7, 6, 5, 4, 3, 2, 1],
+      numbers: [3, 6, 5, 2, 1, 4, 8, 7, 9],
     });
   };
 
